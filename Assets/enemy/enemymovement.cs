@@ -8,7 +8,7 @@ public class Enemy : MonoBehaviour
     public Transform player;
 
     //zombie 
-    public float moveSpeed = 2f;
+    public float moveSpeed = 3f;
     public float chaseRange = 10f;
     public float attackRange = 2f;
     public float attackCooldown = 1.0f; // 攻擊冷卻時間
