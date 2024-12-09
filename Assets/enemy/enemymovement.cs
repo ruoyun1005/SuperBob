@@ -36,7 +36,7 @@ public class Enemy : MonoBehaviour
             {
                 Debug.LogError("Player object not found in the scene. Make sure the player has the 'Player' tag.");
             }
-        animator = GetComponent<Animator>();
+        
         rb = GetComponent<Rigidbody>();
     }
     void Update()
@@ -53,7 +53,7 @@ public class Enemy : MonoBehaviour
             {
                 //follow player
                 MoveTowardsPlayer();
-                Debug.Log($"FIND PLAYER!!!");
+                //Debug.Log($"FIND PLAYER!!!");
                 //isWalking = true;
                 //animator.SetBool("isWalking", true);
                 
@@ -62,17 +62,17 @@ public class Enemy : MonoBehaviour
             {
                 //attacking player
                 AttackPlayer();
-                Debug.Log($"ATTACKING PLAYER");
+                //Debug.Log($"ATTACKING PLAYER");
                 isWalking = false;
                 //animator.SetBool("isWalking", false);
-                animator.SetTrigger("Attacking");
+                //animator.SetTrigger("Attacking");
             }
         }
         else
         {
             //ilde
             //isWalking = false;
-            animator.SetBool("isWalking", false);
+            //animator.SetBool("isWalking", false);
             
         }
 

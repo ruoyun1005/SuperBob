@@ -19,7 +19,8 @@ public class PickUp : MonoBehaviour
             if (throwScript != null)
             {
                 // 設置香蕉為手上的物件
-                throwScript.PickUpBanana(gameObject);
+                
+                //throwScript.PickUpBanana(gameObject);
                 isPickedUp = true;
 
                 Debug.Log("Banana picked up by player!");

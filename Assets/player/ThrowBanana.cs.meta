@@ -4,7 +4,8 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - handTransform: {fileID: 6695429129280675427, guid: 3b137c92537374c88a69b4eb8b35531a, type: 3}
+  - bananaPrefab: {fileID: 4045497183152863244, guid: a7cebee1b0e0e4574ab44b9acc780f6b, type: 3}
+  - handTransform: {fileID: 1635924304518283046, guid: 3b137c92537374c88a69b4eb8b35531a, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

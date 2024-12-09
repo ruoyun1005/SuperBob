@@ -4,15 +4,22 @@ using UnityEngine;
 
 public class EnemyReaction : MonoBehaviour
 {
-    // Start is called before the first frame update
+    private Animator animator;
+    private bool isHitted = false;
     void Start()
     {
-        
+        animator = GetComponent<Animator>();
     }
-
-    // Update is called once per frame
-    void Update()
+    
+    public void TakeDamage()
     {
-        
+        if (animator != null)
+        {
+            animator.SetBool("isHitted", true);
+        }
+        else
+        {
+            Debug.LogError("Animator component not found on enemy!");
+        }
     }
 }

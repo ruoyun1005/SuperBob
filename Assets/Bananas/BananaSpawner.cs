@@ -21,9 +21,8 @@ public class BananaSwapner : MonoBehaviour
         for (int i = 0; i <Count ; i++)
         {
             Vector3 spawnPosition = GetRandomPosition();
-            Instantiate( BananaPrefab, spawnPosition, Quaternion.identity);
+            GameObject newBanana = Instantiate(BananaPrefab, spawnPosition, Quaternion.identity);
         }
-    }
     Vector3 GetRandomPosition()
     {
         // 計算隨機位置
@@ -40,4 +39,5 @@ public class BananaSwapner : MonoBehaviour
         Gizmos.DrawWireCube(spawnAreaCenter, spawnAreaSize);
     }
 
+}
 }

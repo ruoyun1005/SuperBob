@@ -76,7 +76,13 @@ PrefabInstance:
       addedObject: {fileID: 7364278782083588601}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: feebd1f8d3fb94ef49bc7b235e761bf0, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 3803408703628614418}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: feebd1f8d3fb94ef49bc7b235e761bf0, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 2857569941527076062}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: feebd1f8d3fb94ef49bc7b235e761bf0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -241006198734829881}
   m_SourcePrefab: {fileID: 100100000, guid: feebd1f8d3fb94ef49bc7b235e761bf0, type: 3}
 --- !u!1 &620262496535070854 stripped
 GameObject:
@@ -95,8 +101,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f52546781eef844aeb54790cb5d4874a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 8794148707714770575, guid: 5a122fa7935384e339d19bba44d40d64, type: 3}
-  moveSpeed: 3
+  player: {fileID: 6476703830698211281, guid: 725e1f4795d524bed94200178d65e7fa, type: 3}
+  moveSpeed: 1
   chaseRange: 10
   attackRange: 2
   attackCooldown: 1
@@ -121,10 +127,22 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 1
+  m_Radius: 4.727912
+  m_Height: 10.589243
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: -0.41208106, y: 5.176375, z: 0.2943246}
+--- !u!114 &3803408703628614418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 620262496535070854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 189a5cd930bd245e98d8a8e6e400703a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!95 &2857569941527076062
 Animator:
   serializedVersion: 5
@@ -146,3 +164,30 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!54 &-241006198734829881
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 620262496535070854}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0

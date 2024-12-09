@@ -22,35 +22,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0dd82075e37344157a22ac2963a41f2c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.09
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0dd82075e37344157a22ac2963a41f2c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.96
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0dd82075e37344157a22ac2963a41f2c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9.52
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0dd82075e37344157a22ac2963a41f2c, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9434087
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0dd82075e37344157a22ac2963a41f2c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.33163244
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0dd82075e37344157a22ac2963a41f2c, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0dd82075e37344157a22ac2963a41f2c, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0dd82075e37344157a22ac2963a41f2c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -38.736
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0dd82075e37344157a22ac2963a41f2c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -66,18 +66,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0dd82075e37344157a22ac2963a41f2c, type: 3}
       propertyPath: m_TagString
-      value: PickUp
+      value: Banana
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0dd82075e37344157a22ac2963a41f2c, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: -4257334182233172463}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0dd82075e37344157a22ac2963a41f2c, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: -7516388973020577652}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0dd82075e37344157a22ac2963a41f2c, type: 3}
       insertIndex: -1
       addedObject: {fileID: -6980241146028481780}
@@ -90,36 +84,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0dd82075e37344157a22ac2963a41f2c, type: 3}
   m_PrefabInstance: {fileID: 3811478570801710429}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &-4257334182233172463
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4045497183152863244}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed369e0f2bfc44e44a4fbf401971cb0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  floatSpeed: 1
-  floatAmplitude: 0.14
-  rotationSpeed: 50
---- !u!114 &-7516388973020577652
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4045497183152863244}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8bca3df0222f486ab07b90593cd41a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerTag: Player
-  handTransform: {fileID: 6695429129280675427, guid: 3b137c92537374c88a69b4eb8b35531a, type: 3}
-  pickupEffect: {fileID: 0}
 --- !u!54 &-6980241146028481780
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -142,10 +106,10 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 4
   m_CollisionDetection: 0
 --- !u!136 &2156801342093409247
 CapsuleCollider:
@@ -166,7 +130,7 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 3.49
-  m_Height: 1.86
+  m_Radius: 4.190135
+  m_Height: 8.7998295
   m_Direction: 1
-  m_Center: {x: 0.54, y: -0.92, z: 0.39889285}
+  m_Center: {x: -0.16013545, y: -0.010086002, z: 0.3988926}
