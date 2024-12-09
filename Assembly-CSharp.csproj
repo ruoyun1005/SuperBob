@@ -59,13 +59,20 @@
     <UnityVersion>2022.3.47f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="/Users/yun/.vscode/extensions/visualstudiotoolsforunity.vstuc-1.0.4/Analyzers/Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="/Users/yun/.vscode/extensions/visualstudiotoolsforunity.vstuc-1.0.5/Analyzers/Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.47f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.47f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Bananas/BananaSpawner.cs" />
+    <Compile Include="Assets/enemy/enemyspawner.cs" />
+    <Compile Include="Assets/Bananas/PickUp.cs" />
+    <Compile Include="Assets/Bananas/FloatBanana.cs" />
     <Compile Include="Assets/player/playermovement.cs" />
+    <Compile Include="Assets/player/ThrowBanana.cs" />
     <Compile Include="Assets/enemy/enemymovement.cs" />
+    <Compile Include="Assets/enemy/EnemyReaction.cs" />
+    <Compile Include="Assets/Stylized_Astronaut/Character/AstronautThirdPersonCamera.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

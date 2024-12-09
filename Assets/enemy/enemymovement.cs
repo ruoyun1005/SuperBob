@@ -54,8 +54,8 @@ public class Enemy : MonoBehaviour
                 //follow player
                 MoveTowardsPlayer();
                 Debug.Log($"FIND PLAYER!!!");
-                isWalking = true;
-                animator.SetBool("isWalking", true);
+                //isWalking = true;
+                //animator.SetBool("isWalking", true);
                 
             }
             else
@@ -64,14 +64,14 @@ public class Enemy : MonoBehaviour
                 AttackPlayer();
                 Debug.Log($"ATTACKING PLAYER");
                 isWalking = false;
-                animator.SetBool("isWalking", false);
+                //animator.SetBool("isWalking", false);
                 animator.SetTrigger("Attacking");
             }
         }
         else
         {
             //ilde
-            isWalking = false;
+            //isWalking = false;
             animator.SetBool("isWalking", false);
             
         }
