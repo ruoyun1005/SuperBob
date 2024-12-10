@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1635924304518283046}
   m_Layer: 0
-  m_Name: holding
+  m_Name: baba_shooting
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

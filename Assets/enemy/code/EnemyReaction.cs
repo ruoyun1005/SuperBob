@@ -5,10 +5,12 @@ using UnityEngine;
 public class EnemyReaction : MonoBehaviour
 {
     private Animator animator;
+    private Rigidbody rb;
     private bool isHitted = false;
     void Start()
     {
         animator = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody>();
     }
     
     public void TakeDamage()
