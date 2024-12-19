@@ -80,6 +80,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4d80966774d8a4d9ca2e573f0493abce, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3606838210786709660}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4d80966774d8a4d9ca2e573f0493abce, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4604173709447039439}
   m_SourcePrefab: {fileID: 100100000, guid: 4d80966774d8a4d9ca2e573f0493abce, type: 3}
 --- !u!1 &4362492923573275296 stripped
 GameObject:
@@ -172,3 +175,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &4604173709447039439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4362492923573275296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6a6d3c5a55b247b281a554e6f478868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bananaCount: 0
+  bananaPrefab: {fileID: 4045497183152863244, guid: a7cebee1b0e0e4574ab44b9acc780f6b, type: 3}
+  handTransform: {fileID: 1635924304518283046, guid: 3b137c92537374c88a69b4eb8b35531a, type: 3}
+  throwForce: 10
+  bananaText: {fileID: 0}

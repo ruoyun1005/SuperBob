@@ -36,7 +36,7 @@ public class Test : MonoBehaviour
         Debug.Log("Throwing banana...");
 
         // 在玩家正前方生成香蕉
-        Vector3 spawnPosition = transform.position + transform.forward * 1.0f + Vector3.up * 0.5f; // 玩家正前方偏上
+        Vector3 spawnPosition = transform.position + transform.forward * 1.0f + Vector3.up * 4.5f; // 玩家正前方偏上
         Quaternion spawnRotation = transform.rotation; // 與玩家方向一致
 
         // 實例化香蕉

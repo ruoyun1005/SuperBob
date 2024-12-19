@@ -10,15 +10,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 0dd82075e37344157a22ac2963a41f2c, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.118961066
+      value: 0.1717649
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0dd82075e37344157a22ac2963a41f2c, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.118961066
+      value: 0.1717649
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0dd82075e37344157a22ac2963a41f2c, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.118961066
+      value: 0.1717649
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0dd82075e37344157a22ac2963a41f2c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -62,7 +62,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0dd82075e37344157a22ac2963a41f2c, type: 3}
       propertyPath: m_Name
-      value: Banana
+      value: Banana_prefab
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0dd82075e37344157a22ac2963a41f2c, type: 3}
       propertyPath: m_TagString
@@ -80,7 +80,7 @@ PrefabInstance:
       addedObject: {fileID: 2156801342093409247}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0dd82075e37344157a22ac2963a41f2c, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1299425695363509291}
+      addedObject: {fileID: -724934957171602684}
   m_SourcePrefab: {fileID: 100100000, guid: 0dd82075e37344157a22ac2963a41f2c, type: 3}
 --- !u!1 &4045497183152863244 stripped
 GameObject:
@@ -112,7 +112,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 4
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!136 &2156801342093409247
 CapsuleCollider:
@@ -129,15 +129,15 @@ CapsuleCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4.190135
-  m_Height: 8.7998295
-  m_Direction: 1
-  m_Center: {x: -0.16013545, y: -0.010086002, z: 0.3988926}
---- !u!114 &1299425695363509291
+  m_Radius: 1.6290997
+  m_Height: 7.766219
+  m_Direction: 2
+  m_Center: {x: 0.5729666, y: 0, z: 0.41276547}
+--- !u!114 &-724934957171602684
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -146,6 +146,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 4045497183152863244}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3fae09ffdfabb4b129959b78e6dadf2e, type: 3}
+  m_Script: {fileID: 11500000, guid: d23db4e7b8dc00b4396a0b75be89ca9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

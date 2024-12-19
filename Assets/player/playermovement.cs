@@ -69,7 +69,7 @@ public class PlayerMovement : MonoBehaviour
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             isGround = false;
 
-            //animator.SetTrigger("Jump");
+            animator.SetTrigger("Jump");
         }
     }
 

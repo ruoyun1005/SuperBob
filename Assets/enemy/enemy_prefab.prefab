@@ -10,15 +10,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 5b7ddf6d75f7a465e9af45c791fcc1aa, type: 3}
       propertyPath: m_LocalScale.x
-      value: 9
+      value: 30.515657
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5b7ddf6d75f7a465e9af45c791fcc1aa, type: 3}
       propertyPath: m_LocalScale.y
-      value: 9
+      value: 30.515657
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5b7ddf6d75f7a465e9af45c791fcc1aa, type: 3}
       propertyPath: m_LocalScale.z
-      value: 9
+      value: 30.515657
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5b7ddf6d75f7a465e9af45c791fcc1aa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -105,10 +105,10 @@ MonoBehaviour:
   player: {fileID: 4017598582064271386, guid: 6d4f8b8accc4e46a6b1212ee0c17347b, type: 3}
   moveSpeed: 0.97
   chaseRange: 10
-  attackRange: 2
-  attackCooldown: 1
   rotationSpeed: 5
   stopDistance: 1.5
+  dizzyDuration: 3
+  deadDuration: 10
 --- !u!95 &9132435996981293652
 Animator:
   serializedVersion: 5
